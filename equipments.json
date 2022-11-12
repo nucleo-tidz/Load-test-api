@@ -1,0 +1,18 @@
+[
+    {
+      "equipmentSizeCode": "20",
+      "equipmentTypeCode": "DRY"
+    },
+    {
+      "equipmentSizeCode": "40",
+      "equipmentTypeCode": "DRY"
+    },
+    {
+      "equipmentSizeCode": "40",
+      "equipmentTypeCode": "HIGH"
+    },
+    {
+      "equipmentSizeCode": "45",
+      "equipmentTypeCode": "HIGH"
+    }
+  ]
