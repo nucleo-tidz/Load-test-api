@@ -16,7 +16,7 @@ on: #Allow plan to run on PR
       type: boolean
 jobs:
   load_test:
-    name: k6 Load Test
+    name: k6 Test
     runs-on: ubuntu-latest
    
     steps:
@@ -24,7 +24,7 @@ jobs:
     - name: Checkout
       uses: actions/checkout@v3
       
-    - name: Run local k6 test
+    - name: Load and Test
       uses: grafana/k6-action@v0.2.0
       with:
         filename: ./test.js
